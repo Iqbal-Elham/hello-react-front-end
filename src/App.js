@@ -1,13 +1,21 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Greeting from './Greeting';
+import './App.css';
+import React from 'react';
+import { Provider } from 'react-redux';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Greeting from './components/Greeting';
+import store from './redux/store';
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: '',
+      element: <Greeting />,
+    },
+  ]);
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/" component={Greeting} />
-      </Switch>
-    </Router>
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   );
 }
 
