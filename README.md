@@ -34,39 +34,19 @@
 # 📖 Hello Rails React <a name="about-project"></a>
 
 > Hello Rails - API Only is an exercise to setup React + RoR as two different apps, by creating a React front-end with a Rails back-end and connecting them to display a random message. The Rails back-end can be found [here](https://github.com/Iqbal-Elham/hello-rails-back-end).
-## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
-> This project uses the following stack :
+## 🛠️ Built With <a name="built-with"></a>
 
 <details>
-  <summary>Ruby</summary>
-  <summary>Ruby on Rails</summary>
-  <summary>HTML</summary>
-  <summary>CSS</summary>
-  <summary>JavaScript</summary>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://react.dev">React</a></li>
+  </ul>
 </details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-<!-- > Describe between 1-3 key features of the application. -->
-
-- **Rails and React**
-- **Class and Objects**
-- **Object Oriented Programming**
-- **Four Principle of OOP**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
-
-<!-- > Clone the repository by clicking on the 'Code' button and copy the link -->
 
 To get a local copy up and running, follow these steps.
 
@@ -74,32 +54,25 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-You should have Ruby install on your local machine
+- Install [Node.js](https://nodejs.org/en)
+- Install [pnpm](https://npm.io/installation)
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-Example commands:
-
 ```sh
   cd my-folder
-  git clone https://github.com/iqbal-elham/hello-rails-front-end.git
+  git clone git@github.com:dicodiaz/hello-react-front-end.git
 ```
-
-### Install
-
-To install ruby go to : [Install Ruby](https://rubyinstaller.org/) and select your operating system.
-
 
 ### Usage
 
-To run the project, open your project in your terminal  and type ruby test.rb .
-
-Example command:
+To run the project, execute the following commands:
 
 ```sh
-  ruby test.rb
+  npm install
+  pnpm start or yarn dev if using Yarn instead of NPM
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
